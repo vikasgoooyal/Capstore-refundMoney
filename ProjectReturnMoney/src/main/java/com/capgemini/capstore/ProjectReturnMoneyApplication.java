@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class ProjectReturnMoneyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProjectReturnMoneyApplication.class, args);
+		
 	}
 
 }
