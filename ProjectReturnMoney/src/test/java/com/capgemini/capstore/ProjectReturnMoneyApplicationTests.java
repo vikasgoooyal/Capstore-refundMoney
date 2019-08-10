@@ -11,6 +11,9 @@ public class ProjectReturnMoneyApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		
+		System.out.println("vikas");
+		
 	}
-
+		
 }
