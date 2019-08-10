@@ -27,19 +27,13 @@ public class Merchant
 	@Column(name="password",length=20)
 	private String password;
 	@Column(name="merchant_type",length=50)
+	
+	//hii
+	
+	
 	private String merchant_type;
 	@OneToMany(cascade=CascadeType.ALL,mappedBy="merchantAddress")
-	private List<Address> addresses=new ArrayList<>();
-	
-	@ManyToMany(mappedBy="merchantFeedback")
-//	@JoinTable(name="merchant_feedback"
-//			,joinColumns=@JoinColumn(name="feedback_id")
-//			,inverseJoinColumns= 
-//			{
-//					@JoinColumn(name="merchant_id",referencedColumnName="merchant_mobile_no")
-//					,@JoinColumn(name="customer_id",referencedColumnName="customer_mobile_no")
-//			}
-//			)
+			
 	private List<Feedback> feedback=new ArrayList<>();
 	
 	@ManyToMany(mappedBy="merchantResponse")
